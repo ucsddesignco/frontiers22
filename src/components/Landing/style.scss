@@ -1,0 +1,11 @@
+@import '../../styles/base.scss';
+
+div {
+    h1 {
+        font-size: 30px;
+        background-color: $primary-color;
+    }
+    p {
+        font-size: 100px;
+    }
+}
