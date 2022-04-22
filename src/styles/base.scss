@@ -4,3 +4,22 @@ $secondary-color: #F4FF81;
 $h1-size: 2rem; // TO BE UPDATED 
 $h2-size: 1.4rem; // TO BE UPDATED 
 
+@font-face {
+    font-family: "Neue Plak";
+    src: url("../assets/fonts/NeuePlak-ExtendedBold.woff") format("woff");
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: "NB International Regular";
+    src: url("../assets/fonts/NB-International-Pro-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Krisha";
+    src: url("../assets/fonts/Krisha-Regular.otf") format("opentype");
+}
+
+$title-font: "Krisha";
+$heading-font: "Neue Plak";
+$p-font: "NB International Regular";
