@@ -1,0 +1,41 @@
+@import '../../styles/base.scss';
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2rem 8vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    li {
+        margin-right: 5rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: $title-font;
+        color: $primary-color;
+        font-size: 4rem;
+        letter-spacing: 4px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        height: 2.5rem;
+        align-self: center;
+        margin-left: auto;
+    }
+}
