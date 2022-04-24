@@ -1,5 +1,6 @@
 $primary-color: #F4511E;
 $secondary-color: #F4FF81;
+$text-color: #000;
 
 $h1-size: 2rem; // TO BE UPDATED 
 $h2-size: 1.4rem; // TO BE UPDATED 
@@ -23,3 +24,48 @@ $h2-size: 1.4rem; // TO BE UPDATED
 $title-font: "Krisha";
 $heading-font: "Neue Plak";
 $p-font: "NB International Regular";
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-family: $heading-font;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: $primary-color;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: $p-font;
+    font-size: 0.9rem;
+    color: $primary-color;
+}
+
+span {
+    font-family: $p-font;
+}
+
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+}
