@@ -5,6 +5,11 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
 import Timeline from './components/Timeline';
+import './App.css';
+import Navbar from "./components/Navbar";
+import Landing from './components/Landing';
+import FAQ from './components/FAQ';
+import Skeleton from './components/Skeleton';
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -43,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="desktop-container">
+      {/* <div className="desktop-container">
         <div className="module green" id="section" ></div>
         <div id="container">
           <div className="module yellow"></div>
@@ -55,7 +60,10 @@ function App() {
       </div>
       <div className="mobile-container">
         <Timeline />
-      </div>
+      </div> */}
+      <Skeleton />
+      <Navbar />
+
     </div>
   );
 }
