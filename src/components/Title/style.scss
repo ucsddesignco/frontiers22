@@ -1,11 +1,12 @@
 @import '../../styles/base.scss';
 
-.landing {
-    width: 35vw;
+.title {
     color: $primary-color;
     background-color: $secondary-color;
-    margin-left: 60vw;
-    padding: 4rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 2rem 0 6vw;
     text-align: left;
 
     h1 {

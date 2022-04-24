@@ -19,11 +19,11 @@ html,body{
     height:100vh;
   }
   
-  .green{
+  .fixed{
     position: fixed;
-    width:500px;
+    width: 60vw;
     background-color:green;
-    z-index: 1000;
+    z-index: 1;
   }
   
   .yellow{
@@ -50,6 +50,14 @@ html,body{
     width:900px;
     background-color:red;
   }
+
+.title-container {
+  width: 30vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: $secondary-color;
+}
 
 .desktop-container {
     @media screen and (max-width: 500px) {

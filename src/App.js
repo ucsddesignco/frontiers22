@@ -4,12 +4,11 @@ import './styles/main.scss';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-import Timeline from './components/Timeline';
-import './App.css';
 import Navbar from "./components/Navbar";
+import Title from './components/Title';
 import Landing from './components/Landing';
 import FAQ from './components/FAQ';
-import Skeleton from './components/Skeleton';
+import Timeline from './components/Timeline';
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -47,22 +46,24 @@ function App() {
   })
 
   return (
-    <div className="App">
-      {/* <div className="desktop-container">
-        <div className="module green" id="section" ></div>
-        <div id="container">
-          <div className="module yellow"></div>
-          <div className="module purple"></div>
-          <Timeline />
-          <div className="module blue"></div>
-          <div className="module red"></div>
+    <div>
+      <div className="desktop-container">
+        <div className="module fixed" id="section" >
+          <Title />
         </div>
+        <div className="title-frame">
+          
+        </div>
+        <div id="container">
+          <Landing />
+          <FAQ />
+          <Timeline />
+        </div>
+        <Navbar />
       </div>
       <div className="mobile-container">
         <Timeline />
-      </div> */}
-      <Skeleton />
-      <Navbar />
+      </div>
 
     </div>
   );
