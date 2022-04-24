@@ -2,6 +2,8 @@ import React, { useEffect, useState, useRef } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import './style.scss';
+import Landing from '../Landing';
+import FAQ from '../FAQ';
 
 function Skeleton() {
 
@@ -51,7 +53,8 @@ function Skeleton() {
         <div id="container">
             
             <div className="module yellow"></div>
-            <div className="module purple"></div>
+            <Landing />
+            <FAQ />
             <div className="module orange"></div>
             <div className="module blue"></div>
             <div className="module red"></div>
