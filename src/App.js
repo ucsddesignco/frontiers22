@@ -75,7 +75,7 @@ function App() {
                   trigger: box,
                   invalidateOnRefresh: true,
                   scrub: 1,
-                  start: `${section2}px`,
+                  start: `${section2 -250}px`,
               }
           })
           .to(subhead, {
