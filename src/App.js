@@ -3,6 +3,7 @@ import './styles/main.scss';
 
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
 
 import Navbar from "./components/Navbar";
 import Landing from './components/Landing';
@@ -18,6 +19,7 @@ import MobileFAQ from './components/MobileFAQ';
 function App() {
 
   gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollToPlugin);
 
   const [width, setWidth] = useState()
 
@@ -88,6 +90,40 @@ function App() {
                 start: `${total + sidebarBackground}px`,
             }
         })
+
+        //navigation sections
+        const homeNav = document.getElementById("home-navigate");
+        const faqNav = document.getElementById("faq-navigate");
+        const timelineNav = document.getElementById("timeline-navigate");
+
+        homeNav.addEventListener('click', function() {
+          gsap.to(window, {
+            ease: 'none',
+            scrollTo: {
+              y: 0,
+            },
+            duration: 0.05,
+          })
+        })
+        faqNav.addEventListener('click', function() {
+          gsap.to(window, {
+            ease: 'none',
+            scrollTo: {
+              y: (section2 + sidebarBackground / 4.8),
+            },
+            duration: 0.05,
+          })
+        })
+        timelineNav.addEventListener('click', function() {
+          gsap.to(window, {
+            ease: 'none',
+            scrollTo: {
+              y: (total + sidebarBackground + sidebarBackground/1.2),
+            },
+            duration: 0.05,
+          })
+        })
+
         
 
   })

@@ -154,11 +154,11 @@
         &__row {
             grid-template-columns: 1fr 3fr;
         }
-        min-width: 0;
     }
     @media only screen and (max-width: 500px) {
         margin: 0 2rem;
         width: calc(100vw - 6rem);
+        min-width: 0;
         h2 {
             width: 100%;
         }

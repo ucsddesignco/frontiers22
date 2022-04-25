@@ -21,7 +21,7 @@
         display: flex;
     }
 
-    a {
+    a, p {
         text-decoration: none;
         font-family: $title-font;
         color: $primary-color;
@@ -30,6 +30,10 @@
     }
 
     a:hover {
+        text-decoration: underline;
+    }
+
+    p:hover {
         text-decoration: underline;
     }
 
