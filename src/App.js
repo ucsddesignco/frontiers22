@@ -15,6 +15,7 @@ import Timeline from './components/Timeline';
 import MobileNavbar from './components/MobileNavbar';
 import MobileLanding from './components/MobileLanding';
 import MobileFAQ from './components/MobileFAQ';
+import Spacing from './components/Spacing';
 import MobileFooter from './components/MobileFooter';
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
 
         tl2.to(sec, {
             y: 40,
+            x: 40,
             scale: 0.6,
             transformOrigin: 'left top',
             ease: "none",
@@ -69,6 +71,10 @@ function App() {
         const section3 = document.getElementById("FAQ").offsetWidth; // inside FAQ component
         const total = section2 + section3;
         const tl3 = gsap.timeline();
+
+        const imgsbox = document.getElementById("imgs-box"); // inside Sidebar component
+        const illustrations = document.getElementById("sidebar-imgs"); // inside Sidebar component
+        const tl4 = gsap.timeline();
 
         tl3
           .to(subhead, {
@@ -92,10 +98,38 @@ function App() {
             }
         })
 
+        tl4
+          .to(illustrations, {
+              y: '-24vw',
+              ease: "none",
+              scrollTrigger: {
+                  trigger: imgsbox,
+                  invalidateOnRefresh: true,
+                  scrub: 1,
+                  start: `${section2 -250}px`,
+              }
+          })
+          .to(illustrations, {
+            y: '-48vw',
+            ease: "none",
+            scrollTrigger: {
+                trigger: imgsbox,
+                invalidateOnRefresh: true,
+                scrub: 1,
+                start: `${total + sidebarBackground}px`,
+            }
+        })
+
         //navigation sections
         const homeNav = document.getElementById("home-navigate");
         const faqNav = document.getElementById("faq-navigate");
         const timelineNav = document.getElementById("timeline-navigate");
+        const mobileTimelineNav = document.getElementById("mobile-timeline-navigate");
+
+        const mNavbar = document.getElementById("m-navbar").offsetHeight;
+        const mLanding = document.getElementById("m-landing").offsetHeight;
+        const mFAQ = document.getElementById("mobile-faq").offsetHeight;
+        const mobileTotal = mNavbar + mLanding + mFAQ;
 
         homeNav.addEventListener('click', function() {
           gsap.to(window, {
@@ -125,8 +159,6 @@ function App() {
           })
         })
 
-        
-
   })
 
 return (
@@ -145,6 +177,7 @@ return (
     <MobileNavbar />
     <MobileLanding />
     <MobileFAQ />
+    <Spacing />
     <Timeline />
     <MobileFooter />
   </div>

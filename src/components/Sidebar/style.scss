@@ -5,11 +5,34 @@
     .background {
         background-color: $secondary-color;
         height: 100vh;
-        width: 30vw;
+        width: 35vw;
         position: fixed;
         z-index: 99;
     }
+    
+    .container-img-overflow {
+        position: absolute;
+        right: 8vw;
+        top: 35vw;
+        overflow: hidden;
+        height: 22vw;
 
+        .container-img {
+            display: flex;
+            flex-direction: column;
+
+            .flower3 {
+                position: relative;
+                height: 20vw;
+                transform: translateY(24vw);
+            }
+            .flower5 {
+                position: relative;
+                height: 20vw;
+                transform: translateY(28vw);
+            }
+        }
+    }
     .card {
         color: $text-color;
         padding: 2rem 8vw;
@@ -56,8 +79,8 @@
                 background-image: url("../../assets/images/blackspike.svg");
                 background-size: contain;
                 background-repeat: no-repeat;
-                height: 10vw;
-                width: 17.17vw;
+                height: 6.75vw;
+                width: 11.5vw;
         
                 h4 {
                     font-family: $title-font;

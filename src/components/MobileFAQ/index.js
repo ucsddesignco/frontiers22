@@ -10,7 +10,7 @@ import './style.scss';
 const MobileFAQ = () => {
 
   return (
-    <div className='mobile-faq'>
+    <div className='mobile-faq' id='mobile-faq'>
         
         <h2>FAQ</h2>
         {

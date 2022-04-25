@@ -4,6 +4,8 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import { Row, Col, Container } from "react-grid-system";
 import Spike from "../../assets/images/spike.png"
 import Title from "../../assets/images/title.png";
+import Flower3 from "../../assets/images/Flower3.svg";
+import Flower5 from "../../assets/images/Flower5.svg";
 import './style.scss';
 
 const Sidebar = () => {
@@ -12,7 +14,6 @@ const Sidebar = () => {
 
   return (
         <div className='sidebar'>
-
             <div className="background" id="sidebar-background" ></div>
             
             <div className='card' id='sidebar-section'>
@@ -38,8 +39,11 @@ const Sidebar = () => {
                             Timeline
                         </h2>
                     </div>
-                    <div className="subhead-container" id="subhead3">
-                        
+                </div>
+                <div className="container-img-overflow" id="imgs-box">
+                    <div className="container-img" id="sidebar-imgs" >
+                        <img src={Flower3} alt="" className='flower3' />
+                        <img src={Flower5} alt="" className='flower5' />
                     </div>
                 </div>
                 

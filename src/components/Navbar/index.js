@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss';
-import Logo from "../../assets/images/desktop-logo.png"
+import Logo from "../../assets/images/desktop-logo.svg"
 
 const Navbar = () => {
     return(

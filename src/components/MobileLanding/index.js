@@ -9,7 +9,7 @@ import './style.scss';
 
 const MobileLanding = () => {
   return (
-    <div className="mobile-landing">
+    <div className="mobile-landing" id='m-landing'>
       <div className="container-title">
         <h1>Design</h1>
         <div className='spike'>
@@ -23,7 +23,7 @@ const MobileLanding = () => {
       </p>
       <div className="container-bottom">
         <div className="container-register">
-          <h2>Register</h2>
+          <a href='https://bit.ly/dco-df22-signup' target="_blank" >Register</a>
           <img src={Arrow} alt="" />
         </div>
         <img src={Flower1} alt="" className='right' />
