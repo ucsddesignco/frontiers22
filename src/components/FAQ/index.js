@@ -8,7 +8,7 @@ import './style.scss';
 
 const FAQ = () => {
   return (
-    <div id="FAQ">
+    <div className='FAQ' id="FAQ">
       {/*
       <div id="nameContainer">
         <h1 className="heroTitle">DESIGN</h1>

@@ -3,9 +3,9 @@
 .faq2 {
     display: flex;
     flex-direction: row;
-    padding: 2rem 8vw;
+    padding: 4rem 8vw;
     background-color: $secondary-color;
-    width: 84vw;
+    height: 60vh;
 
     h3 {
         font-family: $heading-font;
@@ -18,8 +18,11 @@
         font-size: 1rem;
         color: black;
     }
+    .container {
+        width: 100vw;
+    }
     .items {
-        padding-right: 3rem;
+        padding-right: 2rem;
     }
     .flower {
         position: absolute;
@@ -29,5 +32,9 @@
 
     @media only screen and (max-width: 960px) {
         width: 140vw;
+        .container {
+            width: 140vw;
+        }
     }
+    
 }

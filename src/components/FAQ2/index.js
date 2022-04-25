@@ -31,11 +31,11 @@ const FAQ2 = () => {
       ]
 
   return (
-    <div className='faq2' id="FAQ">
-        <Grid container>
+    <div className='faq2' id="FAQ" >
+        <Grid container className='container'>
             {
                 prompts.map((prompt) => (
-                    <Grid item xs={12} sm={4} md={6} className='items' >
+                    <Grid item xs={4} sm={4} md={6} className='items' >
                         <h3>{prompt.question}</h3>
                         <p>
                             {prompt.answer}
