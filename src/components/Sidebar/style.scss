@@ -1,0 +1,74 @@
+@import '../../styles/base.scss';
+
+.sidebar {
+
+    .background {
+        background-color: $secondary-color;
+        height: 100vh;
+        width: 30vw;
+        position: fixed;
+        z-index: 99;
+    }
+
+    .card {
+        color: $primary-color;
+        padding: 4rem 8vw;
+        text-align: left;
+        height: 100vh;
+        position: fixed;
+        z-index: 100;
+
+        h1 {
+            font-family: $title-font;
+            font-size: 13rem;
+            line-height: 80%;
+            margin-bottom: 2.5rem;
+            margin-top: 0;
+            font-weight: normal;
+            letter-spacing: 6px;
+        }
+        h2 {
+            font-family: $heading-font;
+            font-weight: normal;
+            font-size: 3rem;
+            line-height: 130%;
+            letter-spacing: 4%;
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-family: $p-font;
+            font-weight: normal;
+            font-size: 1.9vw;
+            line-height: 130%;
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+        .flower {
+            width: 10vw;
+        }
+        .hero-title {
+            display: inline;
+        }
+        #spike {
+            position: relative;
+        }
+        .orange-spike {
+            width: 180px;
+            margin-bottom: 1.5rem;
+        }
+        .title {
+            width: 30vw;
+            margin-bottom: 1.5rem;
+        }
+        .subhead-box {
+            overflow-y: hidden;
+            position: absolute;
+            height: 5rem;
+        }
+        .subhead-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

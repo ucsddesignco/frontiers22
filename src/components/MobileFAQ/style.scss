@@ -1,0 +1,42 @@
+@import '../../styles/base.scss';
+
+.mobile-faq {
+    padding: 2rem 8vw;
+    background-color: $secondary-color;
+
+    h2 {
+        font-family: $heading-font;
+        font-size: 2rem;
+        color: $primary-color;
+        padding: 1rem 0 4rem;
+    }
+    h3 {
+        font-family: $heading-font;
+        font-size: 1.5rem;
+        color: black;
+        padding-bottom: 1.25rem;
+    }
+    p {
+        font-family: $p-font;
+        font-size: 1.2rem;
+        color: black;
+        padding-bottom: 3rem;
+    }
+    .container-flower {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .flower-mini {
+        position: relative;
+        width: 10rem;
+        object-fit: contain;
+        transform: translateX(-4rem);
+    }
+    .flower-big {
+        position: absolute;
+        width: 15rem;
+        object-fit: contain;
+        right: -4rem;
+    }
+}

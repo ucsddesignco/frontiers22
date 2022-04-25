@@ -1,0 +1,31 @@
+@import '../../styles/base.scss';
+
+.mobile-landing {
+    padding: 4rem 8vw;
+    background-color: $secondary-color;
+    color: $primary-color;
+
+    h2 {
+        font-family: $title-font;
+        font-size: 3rem;
+        font-weight: normal;
+        letter-spacing: 3px;
+    }
+    p {
+        font-family: $p-font;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        letter-spacing: 4%;
+    }
+    .title {
+        width: 80vw;
+        object-fit: contain;
+        padding-bottom: 1rem;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        padding-top: 3.75rem;
+    }
+
+}

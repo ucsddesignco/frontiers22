@@ -64,6 +64,15 @@ span {
     font-family: $p-font;
 }
 
+@media only screen and (max-width: 1300px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     h3 {
         font-size: 1.2rem;

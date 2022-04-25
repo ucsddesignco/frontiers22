@@ -5,7 +5,7 @@ import './style.scss';
 
 const Landing = () => {
   return (
-    <div className="landing" id="section">
+    <div className="landing" id="landing-section">
       <div>
         <p>
           Design Frontiers is Design Co’s annual design sprint where 
