@@ -11,7 +11,6 @@ const FAQ2 = () => {
   return (
     <div className='faq-background'>
       <div className='faq2' id="FAQ" >
-          <img src={Flower3} alt="" className='flower' />
           <Grid container className='container'>
               {
                   prompts.map((prompt) => (

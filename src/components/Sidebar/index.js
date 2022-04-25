@@ -15,6 +15,7 @@ const Sidebar = () => {
   return (
         <div className='sidebar'>
             <div className="background" id="sidebar-background" ></div>
+            <div className="measurement-tool" id="ruler"></div>
             
             <div className='card' id='sidebar-section'>
                 

@@ -9,6 +9,11 @@
         position: fixed;
         z-index: 99;
     }
+    .measurement-tool {
+        position: absolute;
+        width: 1vw;
+        height: 100px;
+    }
     
     .container-img-overflow {
         position: absolute;

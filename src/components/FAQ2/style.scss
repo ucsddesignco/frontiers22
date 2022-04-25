@@ -3,7 +3,7 @@
 .faq2 {
     display: flex;
     flex-direction: row;
-    padding: 4rem 0 4rem 8vw;
+    padding: 4rem 0 4rem 20vw;
     background-color: $secondary-color;
     height: 60vh;
 
@@ -39,7 +39,6 @@
     }
 
     @media only screen and (max-width: 960px) {
-        width: 180vw;
         height: 72vh;
 
         h3 {

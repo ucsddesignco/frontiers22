@@ -67,6 +67,7 @@ function App() {
         const box = document.getElementById("sidebar-box"); // inside Sidebar component
         const subhead = document.getElementById("sidebar-subhead"); // inside Sidebar component
         const sidebarBackground = document.getElementById("sidebar-section").offsetWidth; // inside Sidebar component
+        const ruler = document.getElementById("ruler").offsetWidth; // inside Sidebar component
         const section2 = document.getElementById("landing-section").offsetWidth; // inside Landing component
         const section3 = document.getElementById("FAQ").offsetWidth; // inside FAQ component
         const total = section2 + section3;
@@ -84,7 +85,7 @@ function App() {
                   trigger: box,
                   invalidateOnRefresh: true,
                   scrub: 1,
-                  start: `${section2 -250}px`,
+                  start: `${section2 -ruler*30}px`,
               }
           })
           .to(subhead, {
@@ -94,7 +95,7 @@ function App() {
                 trigger: box,
                 invalidateOnRefresh: true,
                 scrub: 1,
-                start: `${total + sidebarBackground}px`,
+                start: `${total + ruler*20}px`,
             }
         })
 
@@ -106,7 +107,7 @@ function App() {
                   trigger: imgsbox,
                   invalidateOnRefresh: true,
                   scrub: 1,
-                  start: `${section2 -250}px`,
+                  start: `${section2 -ruler*30}px`,
               }
           })
           .to(illustrations, {
@@ -116,7 +117,7 @@ function App() {
                 trigger: imgsbox,
                 invalidateOnRefresh: true,
                 scrub: 1,
-                start: `${total + sidebarBackground}px`,
+                start: `${total + ruler*20}px`,
             }
         })
 
@@ -144,7 +145,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (section2 + sidebarBackground/3 ),
+              y: (section2 + ruler*5 ),
             },
             duration: 0.05,
           })
@@ -153,7 +154,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (total + sidebarBackground + sidebarBackground/2 ),
+              y: (total + sidebarBackground - ruler*10 ),
             },
             duration: 0.05,
           })

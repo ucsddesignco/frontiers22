@@ -34,7 +34,6 @@ const events = [
 const Timeline = () => {
   return (
     <div className="timelineBackground"  >
-      <img src={Flower5} alt="" className='flower5' />
       <div className="timeline">
         <h2 className="timeline__header" id='timeline-section'>Timeline</h2>
         <h2>Saturday, May 14</h2>
