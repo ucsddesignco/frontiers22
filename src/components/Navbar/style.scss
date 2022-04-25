@@ -1,32 +1,31 @@
 @import '../../styles/base.scss';
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 2rem 8vw;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 120;
+    padding: 2rem 8vw;
 
     ul {
         list-style: none;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 0;
     }
 
     li {
-        margin-right: 5rem;
+        display: flex;
     }
 
     a {
         text-decoration: none;
         font-family: $title-font;
         color: $primary-color;
-        font-size: 3.5rem;
+        font-size: 5vw;
         letter-spacing: 4px;
     }
 
@@ -35,8 +34,8 @@
     }
 
     img {
-        height: 2.5rem;
+        height: 3vw;
         align-self: center;
-        margin-left: auto;
+        margin-left: 4vw;
     }
 }

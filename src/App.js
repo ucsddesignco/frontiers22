@@ -69,7 +69,7 @@ function App() {
 
         tl3
           .to(subhead, {
-              y: '-5rem',
+              y: '-6.5vw',
               ease: "none",
               scrollTrigger: {
                   trigger: box,
@@ -79,7 +79,7 @@ function App() {
               }
           })
           .to(subhead, {
-            y: '-10rem',
+            y: '-13vw',
             ease: "none",
             scrollTrigger: {
                 trigger: box,

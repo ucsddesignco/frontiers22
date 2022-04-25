@@ -19,9 +19,12 @@ const Navbar = () => {
                     <li>
                         <a href="/register" >REGISTER</a>
                     </li>
+                    <li>
+                        <img src={Logo} />
+                    </li>
                 </ul>
             </nav>
-            <img src={Logo} />
+            
         </div>
     )
 }
