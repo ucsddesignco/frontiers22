@@ -6,7 +6,7 @@
     right: 0;
     bottom: 0;
     z-index: 120;
-    padding: 2rem 8vw;
+    padding: 0 8vw 1rem;
 
     ul {
         list-style: none;
@@ -24,9 +24,10 @@
     a, p {
         text-decoration: none;
         font-family: $title-font;
-        color: $primary-color;
+        color: $text-color;
         font-size: 5vw;
         letter-spacing: 4px;
+        cursor: pointer;
     }
 
     a:hover {

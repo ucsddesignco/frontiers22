@@ -15,6 +15,7 @@ import Timeline from './components/Timeline';
 import MobileNavbar from './components/MobileNavbar';
 import MobileLanding from './components/MobileLanding';
 import MobileFAQ from './components/MobileFAQ';
+import MobileFooter from './components/MobileFooter';
 
 function App() {
 
@@ -65,7 +66,7 @@ function App() {
         const subhead = document.getElementById("sidebar-subhead"); // inside Sidebar component
         const sidebarBackground = document.getElementById("sidebar-section").offsetWidth; // inside Sidebar component
         const section2 = document.getElementById("landing-section").offsetWidth; // inside Landing component
-        const section3 = document.getElementById("FAQ").offsetWidth; // inside Landing component
+        const section3 = document.getElementById("FAQ").offsetWidth; // inside FAQ component
         const total = section2 + section3;
         const tl3 = gsap.timeline();
 
@@ -109,7 +110,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (section2 + sidebarBackground / 4.8),
+              y: (section2 + sidebarBackground/3 ),
             },
             duration: 0.05,
           })
@@ -118,7 +119,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (total + sidebarBackground + sidebarBackground/1.2),
+              y: (total + sidebarBackground + sidebarBackground/2 ),
             },
             duration: 0.05,
           })
@@ -145,6 +146,7 @@ return (
     <MobileLanding />
     <MobileFAQ />
     <Timeline />
+    <MobileFooter />
   </div>
 
 </div>

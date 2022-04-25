@@ -1,6 +1,8 @@
 import React from 'react'
 
 import './style.scss';
+import Flower4 from '../../assets/images/Flower4.svg';
+import Flower5 from '../../assets/images/Flower5.svg';
 
 const events = [
   {
@@ -31,33 +33,38 @@ const events = [
 
 const Timeline = () => {
   return (
-    <div className="timeline">
-      <h2 className="timeline__header">Timeline</h2>
-      <h2>Thursday, May 15</h2>
-      <ul className="timeline__table">
-        {
-          events.map((event) => (
-            <li className="timeline__row">
-              <div className="timeline__row__time">
-                <span>{event.time}</span>
-              </div>
-              <div className="timeline__row__detail">
-                <div className="timeline__row__detail__header">
-                  <h3>{event.header}</h3>
+    <div className="timelineBackground">
+      <img src={Flower5} alt="" className='flower5' />
+      <div className="timeline">
+        <h2 className="timeline__header">Timeline</h2>
+        <h2>Saturday, May 14</h2>
+        <ul className="timeline__table">
+          {
+            events.map((event) => (
+              <li className="timeline__row">
+                <div className="timeline__row__time">
+                  <span>{event.time}</span>
                 </div>
-                {
-                  event.description && 
-                  <div className="timeline__row__detail__info">
-                    <p>{event.description}</p>
+                <div className="timeline__row__detail">
+                  <div className="timeline__row__detail__header">
+                    <h3>{event.header}</h3>
                   </div>
-                }
-              </div>
-            </li>
-          ))
-        }
-        
-      </ul>
+                  {
+                    event.description && 
+                    <div className="timeline__row__detail__info">
+                      <p>{event.description}</p>
+                    </div>
+                  }
+                </div>
+              </li>
+            ))
+          }
+          
+        </ul>
+          <img src={Flower4} alt="" className='flower4' />
+      </div>
     </div>
+    
   )
 }
 

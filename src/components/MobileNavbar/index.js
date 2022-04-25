@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@material-ui/core';
-import hamburger from "../../assets/images/hamburger.png"
-import desktopLogo from "../../assets/images/desktop-logo.png";
+import hamburger from "../../assets/images/hamburger.svg"
+import desktopLogo from "../../assets/images/desktop-logo.svg";
 
 
 import './style.scss';

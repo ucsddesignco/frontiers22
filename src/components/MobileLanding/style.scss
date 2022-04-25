@@ -1,31 +1,82 @@
 @import '../../styles/base.scss';
 
 .mobile-landing {
-    padding: 4rem 8vw;
+    padding: 1rem 0 3rem 8vw;
     background-color: $secondary-color;
-    color: $primary-color;
 
+    h1 {
+        font-family: $title-font;
+        font-size: 28vw;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: $primary-color;
+        -webkit-text-stroke-width: 1.25px;
+        -webkit-text-stroke-color: black;
+    }
     h2 {
         font-family: $title-font;
         font-size: 3rem;
         font-weight: normal;
         letter-spacing: 3px;
+        color: $text-color;
     }
     p {
         font-family: $p-font;
         font-size: 1.25rem;
         line-height: 1.5rem;
         letter-spacing: 4%;
+        color: $text-color;
+    }
+    .container-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        transform: translateY(7vw);
+
+        .spike {
+            display: flex;
+            background-image: url("../../assets/images/blackspike.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 18vw;
+            width: 31vw;
+    
+            h4 {
+                font-family: $title-font;
+                font-size: 6vw;
+                color: $primary-color;
+                letter-spacing: 1px;
+                margin: auto;
+                font-weight: normal;
+            }
+        }
     }
     .title {
         width: 80vw;
         object-fit: contain;
         padding-bottom: 1rem;
     }
-    .center {
+    .container-bottom {
+        padding-top: 2rem;
         display: flex;
-        justify-content: center;
-        padding-top: 3.75rem;
-    }
+        align-items: flex-start;
+        justify-content: space-between;
 
+        .container-register {
+            display: flex;
+            align-items: flex-end;
+            padding-top: 2rem;
+    
+            img {
+                height: 1.6rem;
+                object-fit: contain;
+                transform: translateY(-0.5rem);
+                margin-left: 0.5rem;
+            }
+        }
+        .right {
+            height: 40vw;
+            transform: translateY(4vw);
+        }
+    }
 }

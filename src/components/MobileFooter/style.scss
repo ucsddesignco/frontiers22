@@ -1,0 +1,37 @@
+@import '../../styles/base.scss';
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 8vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+    a {
+        font-family: $sub-font;
+        font-size: 0.65rem;
+        color: $primary-color;
+        letter-spacing: 2%;
+        font-weight: 300;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+            font-family: $sub-font;
+            font-size: 0.9rem;
+            color: $primary-color;
+            letter-spacing: 2%;
+            font-weight: 300;
+            margin-right: 0.5rem;
+        }
+    }
+    img {
+        height: 0.9rem;
+        object-fit: contain;
+        transform: translateY(0.05rem);
+    }
+}

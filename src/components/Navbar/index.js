@@ -17,7 +17,7 @@ const Navbar = () => {
                         <a id="timeline-navigate" >TIMELINE</a>
                     </li>
                     <li>
-                        <a href="/register" >REGISTER</a>
+                        <a href="https://bit.ly/dco-df22-signup" target="_blank" >REGISTER</a>
                     </li>
                     <li>
                         <img src={Logo} />

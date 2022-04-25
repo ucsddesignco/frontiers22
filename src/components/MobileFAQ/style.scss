@@ -2,25 +2,38 @@
 
 .mobile-faq {
     padding: 2rem 8vw;
-    background-color: $secondary-color;
+    background-color: $text-color;
 
     h2 {
-        font-family: $heading-font;
-        font-size: 2rem;
+        font-family: $title-font;
+        font-size: 4rem;
         color: $primary-color;
         padding: 1rem 0 4rem;
+        font-weight: normal;
+        letter-spacing: 3px;
     }
-    h3 {
-        font-family: $heading-font;
-        font-size: 1.5rem;
-        color: black;
-        padding-bottom: 1.25rem;
-    }
-    p {
-        font-family: $p-font;
-        font-size: 1.2rem;
-        color: black;
+    
+    .block {
         padding-bottom: 3rem;
+
+        h3 {
+            font-family: $heading-font;
+            font-size: 1.5rem;
+            color: $primary-color;
+            padding-bottom: 1.25rem;
+        }
+        p {
+            display: inline;
+            font-family: $p-font;
+            font-size: 1.2rem;
+            color: $primary-color;
+        }
+        a {
+            display: inline;
+            font-family: $p-font;
+            font-size: 1.2rem;
+            color: $primary-color;
+        }
     }
     .container-flower {
         display: flex;

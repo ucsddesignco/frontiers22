@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Col, Container } from "react-grid-system";
-import Flower from "../../assets/images/Flower.png";
+import Flower1 from "../../assets/images/Flower1.svg";
+import Flower2 from "../../assets/images/Flower2.svg";
+import Flower4 from "../../assets/images/Flower4.svg";
 import './style.scss';
 
 const Landing = () => {
@@ -14,9 +16,9 @@ const Landing = () => {
         </p>
       </div>
       <div>
-        <img className="flower" src={Flower} />
-        <img className="flower" src={Flower} />
-        <img className="flower" src={Flower} />
+        <img className="flower" src={Flower1} />
+        <img className="flower" src={Flower2} />
+        <img className="flower" src={Flower4} />
       </div>
     </div>
   )

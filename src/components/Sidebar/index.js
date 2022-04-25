@@ -17,7 +17,13 @@ const Sidebar = () => {
             
             <div className='card' id='sidebar-section'>
                 
-                <img src={Title} alt="" className='title' />
+                <div className="container-title">
+                    <h1>Design</h1>
+                    <div className='spike'>
+                    <h4>2022</h4>
+                    </div>
+                </div>
+                <h1 className='margin'>Frontiers</h1>
 
                 <div className="subhead-box" id="sidebar-box" >
                     <div className="subhead-container" id="sidebar-subhead" >
