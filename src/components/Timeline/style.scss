@@ -7,9 +7,11 @@
     background-color: $secondary-color;
     width: 90vw;
     h2 {
-        margin: 1rem 0 1rem 0;
+        margin: 5vh 0 1rem 0;
         width: 45%;
         text-align: left;
+        color: $text-color;
+        font-size: 2vw;
     }
     &__header {
         display: none;
@@ -30,12 +32,12 @@
         > span {
             background-color: $text-color;
             color: white;
-            height: 2.5rem ;
+            height: 6vh ;
             vertical-align: middle;
-            padding: 0 2rem;
+            padding: 0 2vh;
         }
         &__time {
-            height: 2.5rem;
+            height: 6vh;
             background-color: $text-color;
             color: $primary-color;
             display: flex;
@@ -48,7 +50,7 @@
             flex-direction: column;
             align-items: flex-start;
             > div {
-                height: 2.5rem;
+                height: 6vh;
                 display: flex;
                 align-items: center;
                 // padding: 0 3rem;
@@ -86,10 +88,11 @@
             width: 45%;
             text-align: left;
             color: $text-color;
+            font-size: 2.5rem;
         }
         &__header {
             font-family: $title-font;
-            font-size: 4rem;
+            font-size: 8rem;
             color: $primary-color;
             padding: 1rem 0 0;
             font-weight: normal;
@@ -97,7 +100,6 @@
         }
         &__row {
             &__time {
-                height: 2.5rem;
                 background-color: $text-color;
                 color: $primary-color;
             }

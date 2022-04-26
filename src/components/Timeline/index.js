@@ -35,7 +35,7 @@ const Timeline = () => {
   return (
     <div className="timelineBackground"  >
       <div className="timeline">
-        <h2 className="timeline__header" id='timeline-section'>Timeline</h2>
+        <h2 className="timeline__header">Timeline</h2>
         <h2>Saturday, May 14</h2>
         <ul className="timeline__table">
           {
