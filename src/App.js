@@ -104,7 +104,7 @@ function App() {
               y: '-24vw',
               ease: "none",
               scrollTrigger: {
-                  trigger: imgsbox,
+                  trigger: box,
                   invalidateOnRefresh: true,
                   scrub: 1,
                   start: `${section2 -ruler*30}px`,
@@ -114,7 +114,7 @@ function App() {
             y: '-48vw',
             ease: "none",
             scrollTrigger: {
-                trigger: imgsbox,
+                trigger: box,
                 invalidateOnRefresh: true,
                 scrub: 1,
                 start: `${total + ruler*20}px`,
