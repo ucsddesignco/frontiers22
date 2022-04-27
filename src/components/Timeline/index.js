@@ -8,17 +8,17 @@ const events = [
   {
     time: "10 AM",
     header: "Event Kickoff",
-    description: "Registration & Icebreakers, Opening Remarks, Brief Introduction, Keynote Speaker"
+    description: "Design Frontiers will begin with an overview of the event, an introduction to the brief, and a talk given by a special keynote speaker."
   },
   {
     time: "11 AM",
     header: "Sprint Starts",
-    description: "Design Sprint, Lunch"
+    description: "Participants will have a little over 3 hours to design the given prompt and prepare to present their design solution."
   },
   {
     time: "2:30 PM",
     header: "Sprint Ends",
-    description: "Presentations Begin, Judging Begins "
+    description: "Teams will present their design solution to our judge panel. Winners will be announced in the closing ceremony and participants can stick around for a networking session. The winning team will receive prizes!"
   },
   {
     time: "3:30 PM",

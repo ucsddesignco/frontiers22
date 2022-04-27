@@ -5,13 +5,13 @@
     flex-direction: column;
     align-items: center;
     background-color: $secondary-color;
-    width: 90vw;
+    width: 100vw;
     h2 {
         margin: 5vh 0 1rem 0;
         width: 45%;
         text-align: left;
         color: $text-color;
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     &__header {
         display: none;
@@ -74,6 +74,7 @@
                 > p {
                     text-align: left;
                     color: $text-color;
+                    font-size: 2vw;
                 }
             }
         }
@@ -85,10 +86,9 @@
         min-width: 800px;
         h2 {
             padding-top: 1rem;
-            width: 45%;
             text-align: left;
             color: $text-color;
-            font-size: 2.5rem;
+            font-size: 1.75rem;
         }
         &__header {
             font-family: $title-font;
@@ -109,12 +109,26 @@
                         color: $text-color;
                     }
                 }
+                &__info {
+                    > p {
+                        font-size: 0.7rem;
+                    }
+                }
             }
+            
         }
     }
     @media only screen and (max-width: 800px) {
         &__row {
             grid-template-columns: 1fr 3fr;
+
+            &__detail {
+                &__info {
+                    > p {
+                        font-size: 0.5rem;
+                    }
+                }
+            }
         }
     }
     @media only screen and (max-width: 500px) {
