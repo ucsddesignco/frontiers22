@@ -5,24 +5,24 @@
     flex-direction: row;
     padding: 4rem 0 4rem 4vw;
     background-color: $secondary-color;
-    height: 60vh;
+    height: 70vh;
 
     h3 {
         font-family: $heading-font;
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: $text-color;
         padding-bottom: 0.25rem;
     }
     p {
         display: inline;
         font-family: $p-font;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: $text-color;
     }
     a {
         display: inline;
         font-family: $p-font;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: $text-color;
     }
     .container {
