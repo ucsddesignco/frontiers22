@@ -10,9 +10,7 @@ const Landing = () => {
     <div className="landing" id="landing-section">
       <div>
         <p>
-          Design Frontiers is Design Co’s annual design sprint where 
-          teams of creative, collaborative individuals tackle real 
-          problems in the world and design for innovation.
+          Design Frontiers is Design Co’s annual one-day design sprint where collaborative teams of creative, innovative individuals can explore design solutions to real problems.
         </p>
       </div>
       <div>

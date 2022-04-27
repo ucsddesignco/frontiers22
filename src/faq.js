@@ -12,7 +12,7 @@ export const prompts = [
       answer: "Saturday, May 7th @ 11:59PM. We will cap the event at 60 participants, so register early!",
       },
     {
-      question: "What’s in it for me?",
-      answer: "The top 3 teams will receive prizes (revealed at the event), and the first 20 people who show up will receive a free Design Frontiers shirt! Other than that, you can gain hands-on design experience while working in teams in a rapid environment."
+      question: "How should I prepare for Design Frontiers if I have no design experience?",
+      answer: "We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in the Design and Interaction Building Room 202!"
     }
   ]
