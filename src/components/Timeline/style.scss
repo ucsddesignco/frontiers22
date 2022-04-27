@@ -13,6 +13,9 @@
         color: $text-color;
         font-size: 1.3vw;
     }
+    .timeline-h2 {
+        display: none;
+    }
     &__header {
         display: none;
         @media only screen and (max-width: 500px) {
@@ -89,6 +92,7 @@
             text-align: left;
             color: $text-color;
             font-size: 1.75rem;
+            margin: 5vh 0 1rem 0;
         }
         &__header {
             font-family: $title-font;
@@ -140,6 +144,7 @@
             margin-top: 0;
         }
         .timeline-h2 {
+            display: block;
             font-size: 4rem;
             font-family: $title-font;
             font-weight: 400;
