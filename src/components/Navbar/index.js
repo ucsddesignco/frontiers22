@@ -20,7 +20,7 @@ const Navbar = () => {
                         <a href="https://bit.ly/dco-df22-signup" target="_blank" >REGISTER</a>
                     </li>
                     <li>
-                        <img src={Logo} />
+                        <a href="https://ucsddesign.co" target="_blank"><img src={Logo} /></a>
                     </li>
                 </ul>
             </nav>
