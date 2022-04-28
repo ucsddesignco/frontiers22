@@ -145,7 +145,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (section2 + ruler*5 ),
+              y: (section2 + ruler*13 ),
             },
             duration: 0.05,
           })
@@ -154,7 +154,7 @@ function App() {
           gsap.to(window, {
             ease: 'none',
             scrollTo: {
-              y: (total + sidebarBackground - ruler*10 ),
+              y: (total + sidebarBackground - ruler ),
             },
             duration: 0.05,
           })
