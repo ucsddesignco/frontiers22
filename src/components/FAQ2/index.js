@@ -21,7 +21,7 @@ const FAQ2 = () => {
               <Grid item xs={6} sm={6} md={6} className='items' >
                 <h3>How long is Design Frontiers?</h3>
                 <p>
-                It’ll be a one day event on <b>Saturday, May 14th @ 10AM-4PM</b>. Lunch will be provided, and the first 20 people who show up will receive a free Design Frontiers shirt! See the Timeline for a more detailed breakdown of the day.
+                It’ll be a one day event on <b>Saturday, May 14th @ 10AM-4PM</b>. Lunch will be provided! See the Timeline for a more detailed breakdown of the day.
                 </p>
               </Grid>
               <Grid item xs={6} sm={6} md={6} className='items' >
@@ -47,6 +47,12 @@ const FAQ2 = () => {
                 <p> </p>
                 <a href="https://discord.gg/jpzznvhX3x" target="_blank" >Discord channel #frontiers-22.</a>
               </Grid>
+              <Grid item xs={6} sm={6} md={6} className='items' >
+                <h3>How should I prepare for Design Frontiers if I have no design experience?</h3>
+                <p>
+                  We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in Warren College Room.
+                </p>
+               </Grid>
           </Grid>
       </div>
     </div>
