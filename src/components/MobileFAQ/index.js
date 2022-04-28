@@ -33,7 +33,7 @@ const MobileFAQ = () => {
               </div>
               <div className="block">
                 <h3>How should I prepare for Design Frontiers if I have no design experience?</h3>
-                <p>We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in the Design and Innovation Building - Room 202!</p>
+                <p>We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in Warren College Room!</p>
               </div>
               <div className="block">
                 <h3>Where is the Design & Innovation Building?</h3>
@@ -47,12 +47,6 @@ const MobileFAQ = () => {
                 </p>
                 <p> </p>
                 <a href="https://discord.gg/jpzznvhX3x" target="_blank" >Discord channel #frontiers-22.</a>
-              </div>
-              <div className="block">
-                <h3>How should I prepare for Design Frontiers if I have no design experience?</h3>
-                <p>
-                We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in Warren College Room.
-                </p>
               </div>
     </div>
   )
