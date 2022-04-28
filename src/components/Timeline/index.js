@@ -8,11 +8,11 @@ const events = [
   {
     time: "10 AM",
     header: "Event Kickoff",
-    description: "Design Frontiers will begin with an overview of the event, an introduction to the brief, and a talk given by a special keynote speaker."
+    description: "Design Frontiers will begin with team formations, an overview of the event, an introduction to the brief, and a talk given by a special keynote speaker."
   },
   {
     time: "11 AM",
-    header: "Sprint Starts",
+    header: "Sprint Starts + Lunch",
     description: "Participants will have a little over 3 hours to design the given prompt and prepare to present their design solution."
   },
   {
