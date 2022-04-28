@@ -32,7 +32,7 @@ const FAQ2 = () => {
               </Grid>
               <Grid item xs={6} sm={6} md={6} className='items' >
                 <h3>How should I prepare for Design Frontiers if I have no design experience?</h3>
-                <p>We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in the Design and Innovation Building - Room 202!</p>
+                <p>We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in the Warren College Room.</p>
               </Grid>
               <Grid item xs={6} sm={6} md={6} className='items' >
                 <h3>Where is the Design & Innovation Building?</h3>
