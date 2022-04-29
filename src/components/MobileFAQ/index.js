@@ -33,7 +33,7 @@ const MobileFAQ = () => {
               </div>
               <div className="block">
                 <h3>How should I prepare for Design Frontiers if I have no design experience?</h3>
-                <p>We’ll be hosting a Navigating Design Frontiers workshop on Wednesday, May 11 at 6:30 PM in the Warren College Room.</p>
+                <p>We’ll be hosting a Navigating Design Frontiers workshop on Thursday, May 12 at 6:30 PM in the Marshall College Room.</p>
               </div>
               <div className="block">
                 <h3>Where is the Design & Innovation Building?</h3>
