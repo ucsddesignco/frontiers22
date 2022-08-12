@@ -17,7 +17,7 @@ const Navbar = () => {
                         <a id="timeline-navigate" >TIMELINE</a>
                     </li>
                     <li>
-                        <a href="https://bit.ly/dco-df22-signup" target="_blank" >REGISTER</a>
+                        <a href="https://youtu.be/8JVotsa7EM0" target="_blank" >Recap</a>
                     </li>
                     <li>
                         <a href="https://ucsddesign.co" target="_blank"><img src={Logo} /></a>
