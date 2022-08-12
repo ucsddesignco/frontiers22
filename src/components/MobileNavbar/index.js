@@ -39,7 +39,7 @@ const MobileNavbar = () => {
               <a href="" onClick={() => closeMenu()}>Home</a>
               <a href="#mobile-faq" onClick={() => closeMenu()}>FAQ</a>
               <a href="#mobile-timeline-section" id='mobile-timeline-navigate' onClick={() => closeMenu()}>Timeline</a>
-              <a href="">Register</a>
+              <a href="https://youtu.be/8JVotsa7EM0" target="_blank">Recap</a>
             </div>
           </div>
         )}

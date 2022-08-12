@@ -23,7 +23,7 @@ const MobileLanding = () => {
       </p>
       <div className="container-bottom">
         <div className="container-register">
-          <a href='https://bit.ly/dco-df22-signup' target="_blank" >Register</a>
+          <a href="https://youtu.be/8JVotsa7EM0" target="_blank" >Recap</a>
           <img src={Arrow} alt="" />
         </div>
         <img src={Flower1} alt="" className='right' />
